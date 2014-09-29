@@ -531,7 +531,7 @@ function htmlSanitizeWriter(buf, uriValidator){
 
 // define ngSanitize module and register $sanitize service
 angular.module('ngSanitize', [])
-.provider('$sanitize', $SanitizeProvider);
+.provider('$sanitize', $SanitizeProvider)
 .factory('$sanitizeExt', $SanitizeExtFactory);
 
 /* global sanitizeText: false */
