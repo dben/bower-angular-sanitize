@@ -1,0 +1,5 @@
+{
+  "name": "angular-sanitize-withfactory",
+  "version": "1.3.0-withfactory",
+  "main": "./angular-sanitize.js"
+}
